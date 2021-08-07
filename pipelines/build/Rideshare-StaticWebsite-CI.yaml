@@ -1,11 +1,8 @@
 resources:
   - repo: self
+  
 pool:
   vmImage: 'Ubuntu-16.04'
-  
-queue:
-  name: Azure Pipelines
-  demands: npm
 
 steps:
   - task: Npm@1
