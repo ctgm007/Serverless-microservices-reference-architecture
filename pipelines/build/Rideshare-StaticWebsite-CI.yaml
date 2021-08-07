@@ -2,6 +2,7 @@ resources:
   - repo: self
 queue:
   name: Azure Pipelines
+  vmImage: 'Ubuntu-16.04'
   demands: npm
 
 steps:
