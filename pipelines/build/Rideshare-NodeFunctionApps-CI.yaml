@@ -1,8 +1,8 @@
 resources:
 - repo: self
-queue:
-  name: Hosted Linux Preview
-  demands: npm
+
+pool:
+  vmImage: ubuntu-latest
 
 steps:
 - task: Npm@1
